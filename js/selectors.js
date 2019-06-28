@@ -13,5 +13,8 @@ function lastImageSelector(){
 }
 
 function ninjaBabySelector(){
-  
+  var ninjaBaby = $("img[src='https://s3.amazonaws.com/after-school-assets/baby-ninja.gif']");
+  return ninjaBaby;
 }
+
+function 
