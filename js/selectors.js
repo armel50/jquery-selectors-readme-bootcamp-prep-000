@@ -8,5 +8,8 @@ function paragraphSelector(){
 }
 
 function lastImageSelector(){
-  $("div.pics img:last")
+  var lastImg=$("div.pics img:last");
+  return lastImg[1];
 }
+
+function ninja
