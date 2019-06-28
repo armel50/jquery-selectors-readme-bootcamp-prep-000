@@ -12,4 +12,6 @@ function lastImageSelector(){
   return lastImg[1];
 }
 
-function ninja
+function ninjaBabySelector(){
+  
+}
