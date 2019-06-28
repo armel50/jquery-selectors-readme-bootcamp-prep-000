@@ -5,8 +5,8 @@ function paragraphSelector(){
 }
 
 function lastImageSelector(){
-  var lastImg=$("div.pics img:last");
-  return lastImg[1];
+  var lastImg=$("p +div.pics img:last");
+  return lastImg;
 }
 
 function ninjaBabySelector(){
