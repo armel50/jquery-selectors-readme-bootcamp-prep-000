@@ -22,4 +22,7 @@ function  divSelector(){
   return div;
 }
 
-function 
+function firstListItem(){
+  var select = $("ul#pic-list li:first-child");
+  return select;
+}
